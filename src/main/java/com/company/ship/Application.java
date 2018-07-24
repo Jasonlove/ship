@@ -15,9 +15,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAutoConfiguration
 @SpringBootApplication
 @EnableScheduling
-public class PersonApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PersonApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
