@@ -18,6 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class Application {
 
 	public static void main(String[] args) {
+		//我就是测试tag
 		SpringApplication.run(Application.class, args);
 	}
 }
